@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3550" started-at="2019-12-06T07:05:01Z" finished-at="2019-12-06T07:05:05Z">
+  <suite name="Suite" duration-ms="9692" started-at="2019-12-06T15:40:47Z" finished-at="2019-12-06T15:40:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3550" started-at="2019-12-06T07:05:01Z" finished-at="2019-12-06T07:05:05Z">
-      <class name="vTestAPIDemo.ScreenTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:vTestAPIDemo.ScreenTest@4b9e13df]" name="setUp" is-config="true" duration-ms="314" started-at="2019-12-06T07:05:01Z" finished-at="2019-12-06T07:05:02Z">
+    <test name="Test" duration-ms="9692" started-at="2019-12-06T15:40:47Z" finished-at="2019-12-06T15:40:57Z">
+      <class name="org.vtest.storestests.StoresTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.vtest.storestests.StoresTest@2b98378d]" name="setUp" is-config="true" duration-ms="883" started-at="2019-12-06T15:40:47Z" finished-at="2019-12-06T15:40:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getScreenNameTest()[pri:0, instance:vTestAPIDemo.ScreenTest@4b9e13df]" name="getScreenNameTest" duration-ms="3223" started-at="2019-12-06T07:05:02Z" finished-at="2019-12-06T07:05:05Z">
+        <test-method status="PASS" signature="getScreenNameTest()[pri:0, instance:org.vtest.storestests.StoresTest@2b98378d]" name="getScreenNameTest" duration-ms="5584" started-at="2019-12-06T15:40:48Z" finished-at="2019-12-06T15:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getScreenNameTest -->
-      </class> <!-- vTestAPIDemo.ScreenTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- org.vtest.storestests.StoresTest -->
+      <class name="org.vtest.screentests.ScreenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.vtest.screentests.ScreenTest@475530b9]" name="setUp" is-config="true" duration-ms="1" started-at="2019-12-06T15:40:53Z" finished-at="2019-12-06T15:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getScreenNameTest()[pri:0, instance:org.vtest.screentests.ScreenTest@475530b9]" name="getScreenNameTest" duration-ms="3190" started-at="2019-12-06T15:40:53Z" finished-at="2019-12-06T15:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenNameTest -->
+      </class> <!-- org.vtest.screentests.ScreenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

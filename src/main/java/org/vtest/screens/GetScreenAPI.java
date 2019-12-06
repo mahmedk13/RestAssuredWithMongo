@@ -1,4 +1,4 @@
-package vTestAPIDemo;
+package org.vtest.screens;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -8,12 +8,17 @@ import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 
-public class GetScreenExample {
+public class GetScreenAPI {
 	
 	
-	public static Response getSrceenData() {
+	public static Response getSrceenDataResponse() {
 		
-		Response response =given().contentType(ContentType.JSON).get("/WBA-15196-000-C002");
+		Response response =given().
+						   contentType(ContentType.JSON).
+						   when().
+						   get("/WBA-15196-000-C002").
+						   then().
+						   extract().response();
 		return response;
 	}
 	
