@@ -2,30 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9692" started-at="2019-12-06T15:40:47Z" finished-at="2019-12-06T15:40:57Z">
+  <suite name="Suite" duration-ms="9046" started-at="2019-12-08T06:20:46Z" finished-at="2019-12-08T06:20:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9692" started-at="2019-12-06T15:40:47Z" finished-at="2019-12-06T15:40:57Z">
-      <class name="org.vtest.storestests.StoresTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.vtest.storestests.StoresTest@2b98378d]" name="setUp" is-config="true" duration-ms="883" started-at="2019-12-06T15:40:47Z" finished-at="2019-12-06T15:40:48Z">
+    <test name="Test" duration-ms="9046" started-at="2019-12-08T06:20:46Z" finished-at="2019-12-08T06:20:55Z">
+      <class name="org.vtest.screenstests.ScreensAPITests">
+        <test-method status="PASS" signature="getDatabase()[pri:0, instance:org.vtest.screenstests.ScreensAPITests@5e5792a0]" name="getDatabase" is-config="true" duration-ms="1343" started-at="2019-12-08T06:20:44Z" finished-at="2019-12-08T06:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDatabase -->
+        <test-method status="PASS" signature="initProperty()[pri:0, instance:org.vtest.screenstests.ScreensAPITests@5e5792a0]" name="initProperty" is-config="true" duration-ms="1" started-at="2019-12-08T06:20:46Z" finished-at="2019-12-08T06:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperty -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.vtest.screenstests.ScreensAPITests@5e5792a0]" name="setUp" is-config="true" duration-ms="931" started-at="2019-12-08T06:20:46Z" finished-at="2019-12-08T06:20:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getScreenNameTest()[pri:0, instance:org.vtest.storestests.StoresTest@2b98378d]" name="getScreenNameTest" duration-ms="5584" started-at="2019-12-06T15:40:48Z" finished-at="2019-12-06T15:40:53Z">
+        <test-method status="PASS" signature="getScreenNameTest()[pri:0, instance:org.vtest.screenstests.ScreensAPITests@5e5792a0]" name="getScreenNameTest" duration-ms="6504" started-at="2019-12-08T06:20:47Z" finished-at="2019-12-08T06:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getScreenNameTest -->
-      </class> <!-- org.vtest.storestests.StoresTest -->
-      <class name="org.vtest.screentests.ScreenTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.vtest.screentests.ScreenTest@475530b9]" name="setUp" is-config="true" duration-ms="1" started-at="2019-12-06T15:40:53Z" finished-at="2019-12-06T15:40:53Z">
+        <test-method status="PASS" signature="postScreenPreviewTest()[pri:0, instance:org.vtest.screenstests.ScreensAPITests@5e5792a0]" name="postScreenPreviewTest" duration-ms="1548" started-at="2019-12-08T06:20:53Z" finished-at="2019-12-08T06:20:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getScreenNameTest()[pri:0, instance:org.vtest.screentests.ScreenTest@475530b9]" name="getScreenNameTest" duration-ms="3190" started-at="2019-12-06T15:40:53Z" finished-at="2019-12-06T15:40:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getScreenNameTest -->
-      </class> <!-- org.vtest.screentests.ScreenTest -->
+        </test-method> <!-- postScreenPreviewTest -->
+      </class> <!-- org.vtest.screenstests.ScreensAPITests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
